@@ -1,19 +1,4 @@
 ﻿Entries:
-- author: tosatur
-  changes:
-  - message: Made hydroponics alert light more orange
-    type: Tweak
-  id: 7148
-  time: '2024-08-19T02:48:47.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/31088
-- author: redmushie
-  changes:
-  - message: News management console now checks for Service ID card access instead
-      of the manifest
-    type: Fix
-  id: 7149
-  time: '2024-08-19T02:55:44.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/31160
 - author: Moomoobeef
   changes:
   - message: Added pitchers for the chef who wants to serve beverages too.
@@ -3929,3 +3914,17 @@
   id: 7647
   time: '2024-11-24T04:20:00.0000000+00:00'
   url: https://github.com/space-wizards/space-station-14/pull/33465
+- author: MilenVolf
+  changes:
+  - message: Expeditions can now be completed prematurely again by making an FTL jump.
+    type: Fix
+  id: 7648
+  time: '2024-11-24T08:11:47.0000000+00:00'
+  url: https://github.com/space-wizards/space-station-14/pull/33507
+- author: deltanedas
+  changes:
+  - message: Fixed expeditions on cave planets not having any ore.
+    type: Fix
+  id: 7649
+  time: '2024-11-24T08:49:31.0000000+00:00'
+  url: https://github.com/space-wizards/space-station-14/pull/32890
