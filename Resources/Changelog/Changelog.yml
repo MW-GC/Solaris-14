@@ -1,29 +1,4 @@
 ﻿Entries:
-- author: Sarahon
-  changes:
-  - message: Now can add head(top) cosmetics to humanoids and dwarfs.
-    type: Add
-  - message: Added "long ears" for human and dwarf head(top) cosmetic.
-    type: Add
-  id: 7180
-  time: '2024-08-21T23:44:43.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/30490
-- author: Winkarst-cpu
-  changes:
-  - message: Now vending machines show valid icons.
-    type: Fix
-  id: 7181
-  time: '2024-08-22T14:40:39.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/30064
-- author: EmoGarbage404
-  changes:
-  - message: Jackboots now reduce slowness from injuries by 50%.
-    type: Add
-  - message: Removed combat boots from the security loadout.
-    type: Remove
-  id: 7182
-  time: '2024-08-22T14:56:47.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/30586
 - author: metalgearsloth
   changes:
   - message: Fix the inventory GUI being visible when you don't have an inventory.
@@ -3906,3 +3881,26 @@
   id: 7679
   time: '2024-12-05T21:39:39.0000000+00:00'
   url: https://github.com/space-wizards/space-station-14/pull/33733
+- author: IProduceWidgets
+  changes:
+  - message: StationEvents with very low weights will now actually appear.
+    type: Fix
+  id: 7680
+  time: '2024-12-06T04:52:02.0000000+00:00'
+  url: https://github.com/space-wizards/space-station-14/pull/33584
+- author: Winkarst-cpu
+  changes:
+  - message: Bar signs now have a maintenance panel and AI can interact with them.
+    type: Add
+  id: 7681
+  time: '2024-12-06T05:27:53.0000000+00:00'
+  url: https://github.com/space-wizards/space-station-14/pull/33467
+- author: ScarKy0, GoldenCan
+  changes:
+  - message: The Derelict Cyborg - a broken cyborg with altered laws due to years
+      of exposure to ion storms - can now appear as a ghost role through a new midround
+      event.
+    type: Add
+  id: 7682
+  time: '2024-12-06T06:22:39.0000000+00:00'
+  url: https://github.com/space-wizards/space-station-14/pull/33433
