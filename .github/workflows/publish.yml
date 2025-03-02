@@ -8,8 +8,14 @@ on:
   # schedule:
    # - cron: '0 10 * * *'
 
+  pull_request_target:
+    types: [closed]
+    branches:
+      - master  # Replace 'main' with your default branch name if different
+
 jobs:
   build:
+    if: github.event.pull_request.merged == true
     runs-on: ubuntu-latest
 
     steps:
