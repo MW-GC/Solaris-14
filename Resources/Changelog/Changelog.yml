@@ -1,27 +1,4 @@
 ﻿Entries:
-- author: thetolbean
-  changes:
-  - message: Items with a damage of 0 now have correct damage examination text.
-    type: Fix
-  id: 7630
-  time: '2024-11-20T02:05:15.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/33064
-- author: SaphireLattice
-  changes:
-  - message: The Singularity/Tesla generator now requires being surrounded by containment
-      fields to activate. This can be disabled with an Emag.
-    type: Tweak
-  id: 7631
-  time: '2024-11-20T05:55:58.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/33358
-- author: TheWaffleJesus
-  changes:
-  - message: You can now craft items with stacks of capacitors without it eating it
-      all!
-    type: Fix
-  id: 7632
-  time: '2024-11-20T07:18:38.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/31966
 - author: ScarKy0, GoldenCan
   changes:
   - message: Ion stormed lawsets no longer persist between shifts.
@@ -3898,3 +3875,24 @@
   id: 8129
   time: '2025-04-04T13:12:04.0000000+00:00'
   url: https://github.com/space-wizards/space-station-14/pull/34566
+- author: lzk228
+  changes:
+  - message: Fix ability to use implants on borgs and bots.
+    type: Fix
+  id: 8130
+  time: '2025-04-04T15:36:28.0000000+00:00'
+  url: https://github.com/space-wizards/space-station-14/pull/36218
+- author: TheBlueYowie
+  changes:
+  - message: Aligned Adv. Mineral Scanner rotation in inventory
+    type: Tweak
+  id: 8131
+  time: '2025-04-04T15:56:30.0000000+00:00'
+  url: https://github.com/space-wizards/space-station-14/pull/36294
+- author: Tayrtahn
+  changes:
+  - message: Fixed ninjas being unable to hack criminal records consoles.
+    type: Fix
+  id: 8132
+  time: '2025-04-04T17:46:59.0000000+00:00'
+  url: https://github.com/space-wizards/space-station-14/pull/36299
