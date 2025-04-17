@@ -1,20 +1,4 @@
 ﻿Entries:
-- author: SlamBamActionman
-  changes:
-  - message: Added Holy damage to the Chaplain's bible, holy water and the gohei,
-      which can be exclusively dealt to spirits.
-    type: Add
-  id: 7715
-  time: '2024-12-16T15:33:32.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/32755
-- author: Vexerot
-  changes:
-  - message: Security Belts and Security Carriers now provide 10% reduced explosion
-      damage to contents.
-    type: Tweak
-  id: 7716
-  time: '2024-12-16T16:27:40.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/33253
 - author: goet
   changes:
   - message: Spaceshrooms can now be cooked on the electric grill.
@@ -3908,3 +3892,17 @@
   id: 8214
   time: '2025-04-17T12:33:31.0000000+00:00'
   url: https://github.com/space-wizards/space-station-14/pull/35590
+- author: Jacktastic09
+  changes:
+  - message: Added the Solid Headband, available via hacked ClothesMate vending machines
+    type: Add
+  id: 8215
+  time: '2025-04-17T13:43:44.0000000+00:00'
+  url: https://github.com/space-wizards/space-station-14/pull/36650
+- author: Hoodie42
+  changes:
+  - message: The banjo can now be worn on the back or suit storage slots.
+    type: Tweak
+  id: 8216
+  time: '2025-04-17T14:05:27.0000000+00:00'
+  url: https://github.com/space-wizards/space-station-14/pull/34057
