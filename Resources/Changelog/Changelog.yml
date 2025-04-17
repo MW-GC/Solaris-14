@@ -1,62 +1,4 @@
 ﻿Entries:
-- author: Winkarst-cpu
-  changes:
-  - message: The A.P.E. guidebook entry now contains information about Sigma particles
-      and transformation effects.
-    type: Tweak
-  id: 7700
-  time: '2024-12-12T14:24:35.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/33558
-- author: lzk228
-  changes:
-  - message: Disabled evac after declaring nuke war is increased from 15 to 25 minutes.
-    type: Tweak
-  id: 7701
-  time: '2024-12-13T03:10:21.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/33628
-- author: LevitatingTree
-  changes:
-  - message: Lizards can now eat the Five Alarm Burger!
-    type: Fix
-  id: 7702
-  time: '2024-12-13T13:53:56.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/33848
-- author: Southbridge
-  changes:
-  - message: Paper documents now support the [mono] tag.
-    type: Add
-  id: 7703
-  time: '2024-12-13T14:24:35.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/33830
-- author: yuitop
-  changes:
-  - message: Anchoring now has higher priority over stashing.
-    type: Tweak
-  id: 7704
-  time: '2024-12-13T23:00:46.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/31779
-- author: Nimfar11
-  changes:
-  - message: Changes the colour of the Borg binary channel to a different shade of
-      blue.
-    type: Tweak
-  id: 7705
-  time: '2024-12-14T16:03:18.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/33841
-- author: Litraxx
-  changes:
-  - message: Renamed the Dungeon Master lawset to Game Master lawset
-    type: Fix
-  id: 7706
-  time: '2024-12-16T11:52:03.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/33678
-- author: psykana
-  changes:
-  - message: Zombies can now see initial infected
-    type: Add
-  id: 7707
-  time: '2024-12-16T11:53:13.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/33665
 - author: Plykiya
   changes:
   - message: Bombs like stingers and clustergrenades now trigger when destroyed due
@@ -3909,3 +3851,62 @@
   id: 8199
   time: '2025-04-16T18:21:45.0000000+00:00'
   url: https://github.com/space-wizards/space-station-14/pull/36485
+- author: ScarKy0
+  changes:
+  - message: A basic sheet crate can now be ordered for 1660 spesos. It contains 30
+      steel, glass and plastic.
+    type: Add
+  id: 8200
+  time: '2025-04-16T19:20:36.0000000+00:00'
+  url: https://github.com/space-wizards/space-station-14/pull/36419
+- author: sowelipililimute
+  changes:
+  - message: The medical and security techfabs now announce new recipes that they
+      can fabricate as they are researched
+    type: Add
+  id: 8201
+  time: '2025-04-16T19:29:25.0000000+00:00'
+  url: https://github.com/space-wizards/space-station-14/pull/34959
+- author: Linkbro1
+  changes:
+  - message: changed MV and HV cable item sprites, changed MV cable structure sprites
+    type: Tweak
+  id: 8202
+  time: '2025-04-16T20:26:25.0000000+00:00'
+  url: https://github.com/space-wizards/space-station-14/pull/34955
+- author: ciaran
+  changes:
+  - message: Fixed duplicate crew monitor console entries for crew with tracking implants
+    type: Fix
+  id: 8203
+  time: '2025-04-16T21:14:05.0000000+00:00'
+  url: https://github.com/space-wizards/space-station-14/pull/35918
+- author: Seam_Less
+  changes:
+  - message: Standardized the In-Hand Sprites for all gloves
+    type: Tweak
+  id: 8204
+  time: '2025-04-16T22:15:38.0000000+00:00'
+  url: https://github.com/space-wizards/space-station-14/pull/35997
+- author: DissidentBullet
+  changes:
+  - message: Monkeys can now wear juggernaut suits
+    type: Add
+  id: 8205
+  time: '2025-04-16T23:14:28.0000000+00:00'
+  url: https://github.com/space-wizards/space-station-14/pull/34121
+- author: SpaceRox1244
+  changes:
+  - message: Cargo can now order handheld artifact containers for transporting small
+      artifacts.
+    type: Add
+  id: 8206
+  time: '2025-04-16T23:35:57.0000000+00:00'
+  url: https://github.com/space-wizards/space-station-14/pull/33327
+- author: ScarKy0
+  changes:
+  - message: Hydroponics tray flatpacks can now be bought for 750 spesos.
+    type: Add
+  id: 8207
+  time: '2025-04-16T23:51:00.0000000+00:00'
+  url: https://github.com/space-wizards/space-station-14/pull/36630
