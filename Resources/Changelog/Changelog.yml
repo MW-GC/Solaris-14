@@ -1,19 +1,4 @@
 ﻿Entries:
-- author: Allen, lzk228
-  changes:
-  - message: Made Gun Safes a craftable object (10 steel, 5 lv cable, 10 plasteel)
-    type: Add
-  id: 7727
-  time: '2024-12-18T11:26:19.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/32694
-- author: MilenVolf
-  changes:
-  - message: Clicking on a buckled mob now unbuckles it, rather than hugging/petting
-      it.
-    type: Fix
-  id: 7728
-  time: '2024-12-18T14:26:58.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/33635
 - author: SlamBamActionman
   changes:
   - message: Slimes no longer deal Cellular damage.
@@ -3868,14 +3853,6 @@
   id: 8220
   time: '2025-04-18T01:59:41.0000000+00:00'
   url: https://github.com/space-wizards/space-station-14/pull/36209
-- author: metalgearsloth
-  changes:
-  - message: Toggleable items such as stunbatons and eswords can no longer be toggled
-      in storage.
-    type: Tweak
-  id: 8221
-  time: '2025-04-18T02:11:31.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/36533
 - author: lzk228
   changes:
   - message: Borgs, clowns and mimes now can choose a custom name in loadouts.
@@ -3912,3 +3889,26 @@
   id: 8226
   time: '2025-04-18T04:50:15.0000000+00:00'
   url: https://github.com/space-wizards/space-station-14/pull/36486
+- author: ciaran
+  changes:
+  - message: Added a button to scroll back to the bottom of the chat box
+    type: Add
+  id: 8227
+  time: '2025-04-18T07:43:00.0000000+00:00'
+  url: https://github.com/space-wizards/space-station-14/pull/35913
+- author: Tayrtahn
+  changes:
+  - message: The popup when pointing at an item in a character's inventory now mentions
+      that character.
+    type: Tweak
+  id: 8228
+  time: '2025-04-18T12:09:49.0000000+00:00'
+  url: https://github.com/space-wizards/space-station-14/pull/36252
+- author: slarticodefast
+  changes:
+  - message: Punching lights while wearing insulated gloves will no longer electrocute
+      you.
+    type: Fix
+  id: 8229
+  time: '2025-04-18T12:26:48.0000000+00:00'
+  url: https://github.com/space-wizards/space-station-14/pull/36686
