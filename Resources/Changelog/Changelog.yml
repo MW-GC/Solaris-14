@@ -1,36 +1,4 @@
 ﻿Entries:
-- author: amatwiedle
-  changes:
-  - message: The A/V Communication technology now unlocks holopad circuit boards.
-    type: Add
-  id: 7766
-  time: '2024-12-31T13:20:07.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/34150
-- author: justdie12
-  changes:
-  - message: Flipped signal disposal routers sprite
-    type: Fix
-  id: 7767
-  time: '2024-12-31T13:25:06.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/34139
-- author: ArtisticRoomba
-  changes:
-  - message: Shotgun crate now comes with 4 lethal shell boxes.
-    type: Tweak
-  - message: Enforcer gun safe now comes with 4 lethal shell boxes.
-    type: Tweak
-  - message: Kammerer gun safe now comes with 2 lethal shell boxes.
-    type: Tweak
-  id: 7768
-  time: '2024-12-31T23:08:26.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/34156
-- author: Booblesnoot42
-  changes:
-  - message: Tarantulas spawned in vents will now be hostile to the crew.
-    type: Fix
-  id: 7769
-  time: '2025-01-01T16:18:52.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/34153
 - author: Booblesnoot42
   changes:
   - message: The RCD no longer has a cooldown when opened or closed.
@@ -3908,3 +3876,32 @@
   id: 8266
   time: '2025-04-19T17:07:23.0000000+00:00'
   url: https://github.com/space-wizards/space-station-14/pull/36719
+- author: VlaDOS1408
+  changes:
+  - message: Fixed Gravity gen menu resizing! Now it looks like it should.
+    type: Fix
+  id: 8267
+  time: '2025-04-19T20:20:32.0000000+00:00'
+  url: https://github.com/space-wizards/space-station-14/pull/34036
+- author: coffeeware, MilenVolf
+  changes:
+  - message: Most common mobs without hands now can't dump containers wtih solution
+      by drag and dropping.
+    type: Tweak
+  id: 8268
+  time: '2025-04-19T20:32:17.0000000+00:00'
+  url: https://github.com/space-wizards/space-station-14/pull/33350
+- author: ScarKy0
+  changes:
+  - message: Salvage borgs now start with a tool module
+    type: Add
+  id: 8269
+  time: '2025-04-19T20:33:54.0000000+00:00'
+  url: https://github.com/space-wizards/space-station-14/pull/33336
+- author: Seam_Less
+  changes:
+  - message: Standardized the Sprites of most scarfs
+    type: Tweak
+  id: 8270
+  time: '2025-04-20T00:17:38.0000000+00:00'
+  url: https://github.com/space-wizards/space-station-14/pull/35446
