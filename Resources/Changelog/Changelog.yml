@@ -1,67 +1,4 @@
 ﻿Entries:
-- author: DylanWhittingham
-  changes:
-  - message: Added appraisal tool sound.
-    type: Add
-  id: 7775
-  time: '2025-01-02T16:46:13.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/34119
-- author: ps3moira
-  changes:
-  - message: Changed tables and counter iconsmoothing
-    type: Tweak
-  id: 7776
-  time: '2025-01-02T16:49:30.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/32673
-- author: SlamBamActionman
-  changes:
-  - message: Added Chameleon PDA, found in the Thief & Uplink Chameleon Kit!
-    type: Add
-  - message: The PDA "owner" field now updates upon having a new ID inserted.
-    type: Tweak
-  id: 7777
-  time: '2025-01-02T18:23:29.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/30514
-- author: FairlySadPanda
-  changes:
-  - message: Added a few new actions that a scrambled borg can encounter via an ion
-      storm.
-    type: Add
-  id: 7778
-  time: '2025-01-02T18:55:57.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/34180
-- author: Deerstop
-  changes:
-  - message: Map rotation now includes Elkridge Depot
-    type: Tweak
-  id: 7779
-  time: '2025-01-04T00:40:54.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/34206
-- author: themias
-  changes:
-  - message: Forensics are now applied to bullets when loading using an ammo box.
-    type: Fix
-  id: 7780
-  time: '2025-01-04T13:41:45.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/32280
-- author: deltanedas
-  changes:
-  - message: Fixed wielding use delay not working properly.
-    type: Fix
-  - message: Fixed bow sprite not updating when wielded.
-    type: Fix
-  id: 7781
-  time: '2025-01-05T19:06:10.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/32188
-- author: Errant
-  changes:
-  - message: Lobby chat width is no longer dependent on the server's name.
-    type: Tweak
-  - message: Lobby title of a server can now be different from the Hub listing's name.
-    type: Tweak
-  id: 7782
-  time: '2025-01-05T20:56:02.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/33783
 - author: SpaceRox1244
   changes:
   - message: Station lights can now be destroyed by bullets.
@@ -3908,3 +3845,63 @@
   id: 8275
   time: '2025-04-20T07:00:33.0000000+00:00'
   url: https://github.com/space-wizards/space-station-14/pull/36744
+- author: Helm
+  changes:
+  - message: You can now add any reagents to soup!
+    type: Fix
+  id: 8276
+  time: '2025-04-20T09:32:02.0000000+00:00'
+  url: https://github.com/space-wizards/space-station-14/pull/34633
+- author: Nox38, BurgerMoth, ArtisticRoomba
+  changes:
+  - message: Added descriptions to all .35 auto cartridges, magazines, and ammo boxes.
+    type: Add
+  id: 8277
+  time: '2025-04-20T11:51:27.0000000+00:00'
+  url: https://github.com/space-wizards/space-station-14/pull/36085
+- author: Pgriha
+  changes:
+  - message: SWAT, ERT, Riot and some other helmets are now hiding head markings.
+    type: Fix
+  id: 8278
+  time: '2025-04-20T11:52:31.0000000+00:00'
+  url: https://github.com/space-wizards/space-station-14/pull/36074
+- author: RedBookcase
+  changes:
+  - message: More items can be processed by the station's Recyclers.
+    type: Add
+  id: 8279
+  time: '2025-04-20T11:53:38.0000000+00:00'
+  url: https://github.com/space-wizards/space-station-14/pull/35800
+- author: Alice4267
+  changes:
+  - message: Changed the amount of glass sheets needed to create beakers to 2 on normal
+      autolathe and 1 on hyperconvectional autolathe.
+    type: Tweak
+  - message: Changed the amount of glass sheets needed to create large beakers to
+      4 on normal autolathe and 2 on hyperconvectional autolathe.
+    type: Tweak
+  id: 8280
+  time: '2025-04-20T12:01:08.0000000+00:00'
+  url: https://github.com/space-wizards/space-station-14/pull/34441
+- author: Pgriha
+  changes:
+  - message: Heterochromia for Moth.
+    type: Add
+  id: 8281
+  time: '2025-04-20T12:03:37.0000000+00:00'
+  url: https://github.com/space-wizards/space-station-14/pull/36061
+- author: BackeTako
+  changes:
+  - message: New Salvage doors
+    type: Add
+  id: 8282
+  time: '2025-04-20T12:03:46.0000000+00:00'
+  url: https://github.com/space-wizards/space-station-14/pull/36375
+- author: HyperB1
+  changes:
+  - message: Departmental shelves can now contain a wider variety of items.
+    type: Tweak
+  id: 8283
+  time: '2025-04-20T12:19:11.0000000+00:00'
+  url: https://github.com/space-wizards/space-station-14/pull/34292
