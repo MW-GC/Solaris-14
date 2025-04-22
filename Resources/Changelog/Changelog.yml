@@ -1,19 +1,4 @@
 ﻿Entries:
-- author: themias
-  changes:
-  - message: Fixed muzzles not working on some characters (e.g. dwarves)
-    type: Fix
-  id: 7809
-  time: '2025-01-15T00:10:39.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/34419
-- author: ArtisticRoomba
-  changes:
-  - message: The station anchor machine board can no longer be printed at the circuit
-      imprinter.
-    type: Remove
-  id: 7810
-  time: '2025-01-15T16:26:19.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/34358
 - author: ArtisticRoomba
   changes:
   - message: Mime PDA item interactions (insertions/ejections of IDs, pens, etc.)
@@ -3735,13 +3720,6 @@
   id: 8287
   time: '2025-04-20T20:55:42.0000000+00:00'
   url: https://github.com/space-wizards/space-station-14/pull/35986
-- author: TheShuEd
-  changes:
-  - message: Voxes can now use any standard human hairstyle.
-    type: Add
-  id: 8288
-  time: '2025-04-20T21:01:50.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/35938
 - author: Booblesnoot42
   changes:
   - message: The sprites for the main chapel altars have been adjusted.
@@ -3904,3 +3882,35 @@
   id: 8309
   time: '2025-04-22T01:03:36.0000000+00:00'
   url: https://github.com/space-wizards/space-station-14/pull/36804
+- author: Doc-Michael
+  changes:
+  - message: Changed protection values of Security Hardsuits
+    type: Tweak
+  - message: Made Warden/HoS coats slightly more protective to better fit their position
+    type: Tweak
+  id: 8310
+  time: '2025-04-22T03:22:56.0000000+00:00'
+  url: https://github.com/space-wizards/space-station-14/pull/30212
+- author: K-Dynamic
+  changes:
+  - message: Changed instances of 3.5 second grenade timers to 3 seconds, including
+      clusterbangs and atmos metal foam grenades.
+    type: Tweak
+  - message: Atmos metal foam grenades have been reworked to disperse foam in a 5x5
+      diamond pattern and harden within two seconds.
+    type: Tweak
+  - message: Reduced hardened metal foam health (breakable in 6 crowbar swings).
+    type: Tweak
+  - message: Changed syndicate trickbomb timer from 3.5 seconds to 5 seconds to match
+      minibombs.
+    type: Tweak
+  id: 8311
+  time: '2025-04-22T05:51:21.0000000+00:00'
+  url: https://github.com/space-wizards/space-station-14/pull/34579
+- author: muburu
+  changes:
+  - message: Dragons can now pry open doors, including firelocks.
+    type: Tweak
+  id: 8312
+  time: '2025-04-22T06:33:00.0000000+00:00'
+  url: https://github.com/space-wizards/space-station-14/pull/36811
