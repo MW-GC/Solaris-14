@@ -1,32 +1,4 @@
 ﻿Entries:
-- author: zHonys
-  changes:
-  - message: Items with collisions (like mousetraps) won't kept doors form opening
-    type: Fix
-  id: 7805
-  time: '2025-01-13T10:07:18.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/34045
-- author: Coolsurf6
-  changes:
-  - message: The "Jazz" style for the Electric Guitar now uses the correct soundfont.
-    type: Tweak
-  id: 7806
-  time: '2025-01-13T10:07:33.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/33363
-- author: southbridge-fur
-  changes:
-  - message: The Pride-O-Mat vending machine has been ported to upstream.
-    type: Add
-  id: 7807
-  time: '2025-01-13T18:49:02.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/34412
-- author: Killerqu00
-  changes:
-  - message: Pet carriers can now be crafted.
-    type: Add
-  id: 7808
-  time: '2025-01-14T22:34:04.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/34431
 - author: themias
   changes:
   - message: Fixed muzzles not working on some characters (e.g. dwarves)
@@ -3901,3 +3873,34 @@
   id: 8305
   time: '2025-04-21T17:54:51.0000000+00:00'
   url: https://github.com/space-wizards/space-station-14/pull/36801
+- author: lzk228
+  changes:
+  - message: Fix identity reveal for creaming and meat spike popups.
+    type: Fix
+  id: 8306
+  time: '2025-04-21T20:15:20.0000000+00:00'
+  url: https://github.com/space-wizards/space-station-14/pull/32003
+- author: ShadowCommander
+  changes:
+  - message: Added firelock lights for pressure and temperature warnings.
+    type: Add
+  id: 8307
+  time: '2025-04-21T22:39:29.0000000+00:00'
+  url: https://github.com/space-wizards/space-station-14/pull/28339
+- author: lzk228
+  changes:
+  - message: Bots now can examine, use zoom and see their alerts (health & stamina).
+    type: Tweak
+  - message: Added borgs emotes to bots.
+    type: Tweak
+  id: 8308
+  time: '2025-04-21T22:49:43.0000000+00:00'
+  url: https://github.com/space-wizards/space-station-14/pull/29949
+- author: Ghagliiarghii
+  changes:
+  - message: The monkey version of captain uniforms and the hamster version of captain
+      hats updated to match humanoid versions
+    type: Tweak
+  id: 8309
+  time: '2025-04-22T01:03:36.0000000+00:00'
+  url: https://github.com/space-wizards/space-station-14/pull/36804
