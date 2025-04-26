@@ -79,6 +79,9 @@
   id: BodyBag
 
 - type: Tag
+  id: Boll
+
+- type: Tag
   id: Book
 
 - type: Tag
@@ -352,6 +355,9 @@
 
 - type: Tag
   id: CottonBoll
+
+- type: Tag
+  id: CottonBurger
 
 - type: Tag
   id: Cow
