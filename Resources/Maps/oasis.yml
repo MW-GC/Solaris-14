@@ -4,8 +4,8 @@ meta:
   engineVersion: 254.1.0
   forkId: ""
   forkVersion: ""
-  time: 04/29/2025 08:52:23
-  entityCount: 30629
+  time: 04/30/2025 01:38:34
+  entityCount: 30633
 maps:
 - 1
 grids:
@@ -14814,7 +14814,7 @@ entities:
       pos: -22.5,26.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -168481.44
+      secondsUntilStateChange: -168616.33
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -15670,7 +15670,7 @@ entities:
       lastSignals:
         DoorStatus: True
     - type: Door
-      secondsUntilStateChange: -267310.06
+      secondsUntilStateChange: -267444.94
       state: Opening
   - uid: 6934
     components:
@@ -15682,7 +15682,7 @@ entities:
       lastSignals:
         DoorStatus: True
     - type: Door
-      secondsUntilStateChange: -267312.7
+      secondsUntilStateChange: -267447.56
       state: Opening
   - uid: 6935
     components:
@@ -15694,7 +15694,7 @@ entities:
       lastSignals:
         DoorStatus: True
     - type: Door
-      secondsUntilStateChange: -267311.53
+      secondsUntilStateChange: -267446.4
       state: Opening
   - uid: 6936
     components:
@@ -15705,7 +15705,7 @@ entities:
       lastSignals:
         DoorStatus: True
     - type: Door
-      secondsUntilStateChange: -267310.75
+      secondsUntilStateChange: -267445.62
       state: Opening
 - proto: AirlockTheatreLocked
   entities:
@@ -97804,7 +97804,7 @@ entities:
       pos: -13.5,-1.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -258634.06
+      secondsUntilStateChange: -258768.95
     - type: DeviceNetwork
       deviceLists:
       - 18275
@@ -135183,11 +135183,19 @@ entities:
     - type: Transform
       pos: 46.5,-12.5
       parent: 2
+    missingComponents:
+    - ActivatableUI
+    - UserInterface
+    - Gateway
   - uid: 30412
     components:
     - type: Transform
       pos: 17.5,2.5
       parent: 21002
+    missingComponents:
+    - ActivatableUI
+    - UserInterface
+    - Gateway
 - proto: GlassBoxLaserFilled
   entities:
   - uid: 30286
@@ -144318,7 +144326,7 @@ entities:
       pos: 36.5,-35.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -295465.84
+      secondsUntilStateChange: -295600.72
       state: Opening
   - uid: 5211
     components:
@@ -150749,15 +150757,25 @@ entities:
     - type: Transform
       pos: 46.5,-12.5
       parent: 2
+    - type: Portal
+      canTeleportToOtherMaps: True
+    - type: LinkedEntity
+      deleteOnEmptyLinks: True
+      linkedEntities:
+      - 30633
 - proto: PortalGatewayOrange
   entities:
-  - uid: 30416
+  - uid: 30633
     components:
     - type: Transform
       pos: 17.5,2.5
       parent: 21002
+    - type: Portal
+      canTeleportToOtherMaps: True
     - type: LinkedEntity
-      linkedEntities: []
+      deleteOnEmptyLinks: True
+      linkedEntities:
+      - 30409
 - proto: PosterContrabandBeachStarYamamoto
   entities:
   - uid: 11972
@@ -170535,6 +170553,26 @@ entities:
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: 24.5,6.5
+      parent: 2
+  - uid: 30416
+    components:
+    - type: Transform
+      pos: 30.5,9.5
+      parent: 2
+  - uid: 30630
+    components:
+    - type: Transform
+      pos: 30.5,10.5
+      parent: 2
+  - uid: 30631
+    components:
+    - type: Transform
+      pos: 31.5,10.5
+      parent: 2
+  - uid: 30632
+    components:
+    - type: Transform
+      pos: 31.5,9.5
       parent: 2
 - proto: StairStageDark
   entities:
@@ -198958,7 +198996,7 @@ entities:
       pos: 24.5,2.5
       parent: 21002
     - type: Door
-      secondsUntilStateChange: -640670.5
+      secondsUntilStateChange: -640805.44
       state: Opening
   - uid: 28863
     components:
