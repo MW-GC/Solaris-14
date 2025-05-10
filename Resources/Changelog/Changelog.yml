@@ -1,26 +1,4 @@
 ﻿Entries:
-- author: Minemoder
-  changes:
-  - message: Slime plushie now squishes.
-    type: Tweak
-  id: 7946
-  time: '2025-02-13T07:55:04.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/33554
-- author: AgentSmithRadio
-  changes:
-  - message: Added grilled cheese sandwich and recipe.
-    type: Add
-  id: 7947
-  time: '2025-02-13T08:00:39.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/33807
-- author: themias
-  changes:
-  - message: The experimental welding tool now requires only minimal eye protection
-      (e.g. sunglasses)
-    type: Tweak
-  id: 7948
-  time: '2025-02-13T19:26:01.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/34792
 - author: Winkarst-cpu
   changes:
   - message: Thrusters now deal heat damage.
@@ -3931,3 +3909,25 @@
   id: 8448
   time: '2025-05-09T15:52:30.0000000+00:00'
   url: https://github.com/space-wizards/space-station-14/pull/34926
+- author: sowelipililimute
+  changes:
+  - message: Reagent dispensers (Chem Dispenser, Booze Dispenser, Soda Dispenser)
+      now use a grid inventory for their internal storage
+    type: Tweak
+  id: 8449
+  time: '2025-05-10T03:49:05.0000000+00:00'
+  url: https://github.com/space-wizards/space-station-14/pull/34205
+- author: B-Kirill
+  changes:
+  - message: Meteors no longer slow down during flight.
+    type: Fix
+  id: 8450
+  time: '2025-05-10T03:55:35.0000000+00:00'
+  url: https://github.com/space-wizards/space-station-14/pull/37320
+- author: Pronana
+  changes:
+  - message: You can no longer grind the smite snail
+    type: Fix
+  id: 8451
+  time: '2025-05-10T05:06:19.0000000+00:00'
+  url: https://github.com/space-wizards/space-station-14/pull/37020
