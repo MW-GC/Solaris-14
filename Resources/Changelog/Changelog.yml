@@ -1,41 +1,4 @@
 ﻿Entries:
-- author: slarticodefast
-  changes:
-  - message: Fixed uplink items not being able to be used in your hand.
-    type: Fix
-  id: 7964
-  time: '2025-02-16T18:47:41.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/35218
-- author: PicklOH
-  changes:
-  - message: Added a lethals drum to the Bulldog bundle.
-    type: Add
-  - message: Removed a beanbag drum from the Bulldog bundle.
-    type: Remove
-  id: 7965
-  time: '2025-02-16T22:30:46.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/34945
-- author: psykana
-  changes:
-  - message: DNA Scrambler implant now requires confirmation to activate
-    type: Add
-  id: 7966
-  time: '2025-02-17T06:16:55.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/35232
-- author: Emisse
-  changes:
-  - message: Centcomm has been rebuilt from the ground up.
-    type: Tweak
-  id: 7967
-  time: '2025-02-17T08:51:45.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/35240
-- author: Sparlight
-  changes:
-  - message: Space debris has returned to Wizden servers.
-    type: Add
-  id: 7968
-  time: '2025-02-17T12:56:48.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/34795
 - author: Kickguy223
   changes:
   - message: Cleaning up a puddle properly changes its slippery properties.
@@ -3923,3 +3886,41 @@
   id: 8466
   time: '2025-05-12T17:52:04.0000000+00:00'
   url: https://github.com/space-wizards/space-station-14/pull/36948
+- author: Prole0
+  changes:
+  - message: Changed wording/colors for alerts in health analyzer.
+    type: Tweak
+  id: 8467
+  time: '2025-05-12T20:52:17.0000000+00:00'
+  url: https://github.com/space-wizards/space-station-14/pull/37376
+- author: perryprog
+  changes:
+  - message: Borgs in certain circumstances will no-longer draw much more power than
+      they should.
+    type: Fix
+  id: 8468
+  time: '2025-05-12T21:24:00.0000000+00:00'
+  url: https://github.com/space-wizards/space-station-14/pull/37364
+- author: Hanzdegloker
+  changes:
+  - message: Previously unused flavors alongside some reworked ones now appear in
+      Dan's soaked smokes packs.
+    type: Tweak
+  id: 8469
+  time: '2025-05-12T23:27:26.0000000+00:00'
+  url: https://github.com/space-wizards/space-station-14/pull/36979
+- author: EmoGarbage404
+  changes:
+  - message: Added the basilisk! This mob can be found on the vgroid and can freeze
+      you with his eye beam. His diamond exterior can sell for a pretty penny, however...
+    type: Add
+  id: 8470
+  time: '2025-05-12T23:42:51.0000000+00:00'
+  url: https://github.com/space-wizards/space-station-14/pull/37135
+- author: perryprog
+  changes:
+  - message: You can now link uniform printers to silos.
+    type: Tweak
+  id: 8471
+  time: '2025-05-12T23:56:02.0000000+00:00'
+  url: https://github.com/space-wizards/space-station-14/pull/37393
