@@ -1,32 +1,4 @@
 ﻿Entries:
-- author: Kickguy223
-  changes:
-  - message: Cleaning up a puddle properly changes its slippery properties.
-    type: Fix
-  id: 7969
-  time: '2025-02-17T20:53:23.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/34525
-- author: lzk228
-  changes:
-  - message: Syndicate cyborgs can laugh again.
-    type: Fix
-  id: 7970
-  time: '2025-02-17T21:59:34.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/31510
-- author: Killerqu00
-  changes:
-  - message: Contraband examines now correctly tell you if you can possess the object.
-    type: Fix
-  id: 7971
-  time: '2025-02-18T11:33:08.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/35228
-- author: Ian321
-  changes:
-  - message: Magazines that started out empty now visually fill.
-    type: Fix
-  id: 7972
-  time: '2025-02-18T12:32:54.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/34491
 - author: WarPigeon
   changes:
   - message: Steel crates now have some radiation shielding for safe storage and transport
@@ -3924,3 +3896,34 @@
   id: 8471
   time: '2025-05-12T23:56:02.0000000+00:00'
   url: https://github.com/space-wizards/space-station-14/pull/37393
+- author: K-Dynamic
+  changes:
+  - message: Recoloured job icons of chaplain, librarian, boxer, janitor, lawyer and
+      ID icon of lawyer, boxer from grey to green
+    type: Tweak
+  id: 8472
+  time: '2025-05-13T07:43:31.0000000+00:00'
+  url: https://github.com/space-wizards/space-station-14/pull/36580
+- author: chromiumboy
+  changes:
+  - message: Station AIs can personalize the appearance of their cores and holograms
+      by right-clicking the AI core in which they are inserted and selecting 'AI customization'
+      from the list
+    type: Add
+  id: 8473
+  time: '2025-05-13T08:50:43.0000000+00:00'
+  url: https://github.com/space-wizards/space-station-14/pull/34501
+- author: EmoGarbage404
+  changes:
+  - message: Adjusted the sounds of various floors and shoes.
+    type: Tweak
+  id: 8474
+  time: '2025-05-13T09:16:17.0000000+00:00'
+  url: https://github.com/space-wizards/space-station-14/pull/36941
+- author: metalgearsloth
+  changes:
+  - message: Predicted freezers + heaters UIs.
+    type: Tweak
+  id: 8475
+  time: '2025-05-13T11:49:44.0000000+00:00'
+  url: https://github.com/space-wizards/space-station-14/pull/33837
