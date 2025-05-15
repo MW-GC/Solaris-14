@@ -1,45 +1,4 @@
 ﻿Entries:
-- author: Zokkie
-  changes:
-  - message: Argocytes, Mimics, Butterflies, Bees, Space Kangaroos, Laser Raptors
-      and Watchers their corpses can now be butchered.
-    type: Fix
-  - message: Butterflies can now be picked up and can also be put into trash bags.
-    type: Fix
-  - message: You can now grind Butterflies and Bees in the reagent grinder.
-    type: Fix
-  id: 7985
-  time: '2025-02-20T16:12:56.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/33727
-- author: metalgearsloth
-  changes:
-  - message: Fix storage windows being duplicated when reconnecting.
-    type: Fix
-  id: 7986
-  time: '2025-02-20T16:51:04.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/35054
-- author: Boaz1111
-  changes:
-  - message: Added colored light bulbs! You can make them just like colored light
-      tubes, in the crafting menu.
-    type: Add
-  id: 7987
-  time: '2025-02-21T18:01:31.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/35333
-- author: themias
-  changes:
-  - message: Fixed sink draining noise continuous playback
-    type: Fix
-  id: 7988
-  time: '2025-02-22T09:20:44.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/34173
-- author: Sparlight
-  changes:
-  - message: All dogs now make dog noises when speaking.
-    type: Tweak
-  id: 7989
-  time: '2025-02-22T21:34:30.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/35383
 - author: GrownSamoyedDog
   changes:
   - message: Fixed Guidebook Entry Ordering / Sorting
@@ -3923,3 +3882,40 @@
   id: 8487
   time: '2025-05-14T22:05:45.0000000+00:00'
   url: https://github.com/space-wizards/space-station-14/pull/37413
+- author: slarticodefast
+  changes:
+  - message: Fixed paradox clones not copying the mute, snoring and frontal lisp traits.
+    type: Fix
+  id: 8488
+  time: '2025-05-15T01:45:48.0000000+00:00'
+  url: https://github.com/space-wizards/space-station-14/pull/37467
+- author: kosticia
+  changes:
+  - message: Hamsters, mice, butterflies, mothroaches, bees, bats, snails, rats, ticks
+      and cockroaches now don't leave organs on gibbing.
+    type: Fix
+  id: 8489
+  time: '2025-05-15T03:45:50.0000000+00:00'
+  url: https://github.com/space-wizards/space-station-14/pull/37080
+- author: EmoGarbage404
+  changes:
+  - message: Goliath tentacles no longer miss if you stand still.
+    type: Fix
+  id: 8490
+  time: '2025-05-15T03:55:05.0000000+00:00'
+  url: https://github.com/space-wizards/space-station-14/pull/37168
+- author: K-Dynamic
+  changes:
+  - message: Engineering goggles and industrial advanced welders may be found in welding
+      supplies lockers.
+    type: Tweak
+  id: 8491
+  time: '2025-05-15T03:55:54.0000000+00:00'
+  url: https://github.com/space-wizards/space-station-14/pull/36977
+- author: BlitzTheSquishy
+  changes:
+  - message: You're no longer allowed to fire the Hristov or Mosin one handed anymore.
+    type: Tweak
+  id: 8492
+  time: '2025-05-15T04:12:24.0000000+00:00'
+  url: https://github.com/space-wizards/space-station-14/pull/33708
