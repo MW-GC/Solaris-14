@@ -1,46 +1,4 @@
 ﻿Entries:
-- author: beck-thompson
-  changes:
-  - message: Chameleon vests now have the same stats as winter coats (Cold protection,
-      minor heat increase, 5% slash resistance, 10% heat resistance)
-    type: Tweak
-  id: 8075
-  time: '2025-03-17T18:39:04.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/34929
-- author: slarticodefast
-  changes:
-  - message: Paradox clones now receive any implants the original has.
-    type: Add
-  - message: Cloning pods no longer copy items in slime storage.
-    type: Fix
-  id: 8076
-  time: '2025-03-18T05:21:56.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/35906
-- author: slarticodefast
-  changes:
-  - message: Tomato Killers now take damage from weedkiller and plant b gone.
-    type: Tweak
-  id: 8077
-  time: '2025-03-18T08:00:44.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/35898
-- author: slarticodefast
-  changes:
-  - message: Paradox Clones now start with their suit sensors turned off.
-    type: Tweak
-  id: 8078
-  time: '2025-03-18T20:07:06.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/35909
-- author: AgentSmithRadio
-  changes:
-  - message: Smite Vendors can now be restocked using the standard beverage restock
-      box.
-    type: Fix
-  - message: Smite and other soda vendors now carry more soda, and are less likely
-      to be empty at shift start.
-    type: Tweak
-  id: 8079
-  time: '2025-03-18T23:45:20.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/35144
 - author: claustro305
   changes:
   - message: Fixed an issue where small lights are too hard to shoot.
@@ -3919,3 +3877,40 @@
   id: 8586
   time: '2025-05-30T10:07:25.0000000+00:00'
   url: https://github.com/space-wizards/space-station-14/pull/33887
+- author: aada
+  changes:
+  - message: Filter categories added to the cutter machine.
+    type: Add
+  id: 8587
+  time: '2025-05-30T15:19:57.0000000+00:00'
+  url: https://github.com/space-wizards/space-station-14/pull/34321
+- author: Nox38
+  changes:
+  - message: Assault Rifles can now be switched between semi and full auto.
+    type: Tweak
+  id: 8588
+  time: '2025-05-30T15:50:54.0000000+00:00'
+  url: https://github.com/space-wizards/space-station-14/pull/34907
+- author: Alpaccalypse
+  changes:
+  - message: Absinthe makes you mildly hallucinate.
+    type: Tweak
+  - message: Absinthe is served in a smaller glass. No more vomiting.
+    type: Tweak
+  id: 8589
+  time: '2025-05-30T16:03:49.0000000+00:00'
+  url: https://github.com/space-wizards/space-station-14/pull/34371
+- author: Nox38
+  changes:
+  - message: Increased firerate and cooldown of Drozd's burst mode.
+    type: Tweak
+  id: 8590
+  time: '2025-05-30T16:16:50.0000000+00:00'
+  url: https://github.com/space-wizards/space-station-14/pull/34906
+- author: spanky-spanky
+  changes:
+  - message: Secret door sprites now display correctly when facing all directions.
+    type: Fix
+  id: 8591
+  time: '2025-05-30T18:11:48.0000000+00:00'
+  url: https://github.com/space-wizards/space-station-14/pull/37914
