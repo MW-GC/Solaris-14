@@ -1,30 +1,4 @@
 ﻿Entries:
-- author: Errant
-  changes:
-  - message: The correct popup messages will now show for both players when someone
-      removes someone else's handcuffs.
-    type: Fix
-  id: 8088
-  time: '2025-03-20T02:15:44.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/35743
-- author: Seam_Less
-  changes:
-  - message: Added in-hand sprites to many common medical items that previously lacked
-      one.
-    type: Add
-  - message: Fixed the bruise pack using the ointment in-hand sprite instead of it's
-      own sprite.
-    type: Fix
-  id: 8089
-  time: '2025-03-20T02:18:01.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/34984
-- author: psykana
-  changes:
-  - message: C4 head slot equip/unequip is now delayed similar to EVA helmet
-    type: Add
-  id: 8090
-  time: '2025-03-20T16:33:47.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/35922
 - author: Darkmajia
   changes:
   - message: Correctly set default production amount in Lathe UI
@@ -3919,3 +3893,24 @@
   id: 8599
   time: '2025-06-02T05:01:43.0000000+00:00'
   url: https://github.com/space-wizards/space-station-14/pull/36124
+- author: ScarKy0
+  changes:
+  - message: Air Grenades can now be ordered from your request consoles.
+    type: Add
+  id: 8600
+  time: '2025-06-02T09:18:45.0000000+00:00'
+  url: https://github.com/space-wizards/space-station-14/pull/38010
+- author: Cojoke-dot
+  changes:
+  - message: Lube now evaporates slowly
+    type: Tweak
+  id: 8601
+  time: '2025-06-02T10:41:34.0000000+00:00'
+  url: https://github.com/space-wizards/space-station-14/pull/37998
+- author: ciaran
+  changes:
+  - message: Clearer labels for toggle internals actions
+    type: Add
+  id: 8602
+  time: '2025-06-02T11:09:46.0000000+00:00'
+  url: https://github.com/space-wizards/space-station-14/pull/36073
