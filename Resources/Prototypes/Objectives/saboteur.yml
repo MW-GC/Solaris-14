@@ -1,0 +1,191 @@
+# Provocateur/Saboteur objectives
+# Unlike the Ninja (tech-focused sabotage with special gadgets),
+# the Provocateur focuses on social manipulation, framing others, and creating distrust.
+# They don't have advanced tech - they use cunning and deception.
+# CRITICAL: The Provocateur is PACIFIED and cannot kill directly.
+# They must manipulate the crew into killing their targets for them.
+
+- type: entity
+  abstract: true
+  parent: BaseObjective
+  id: BaseSaboteurObjective
+  components:
+  - type: Objective
+    issuer: objective-issuer-rival-corp
+  - type: RoleRequirement
+    roles:
+    - SaboteurRole
+
+- type: entity
+  abstract: true
+  parent: [BaseSaboteurObjective, BaseStealObjective]
+  id: BaseSaboteurStealObjective
+  components:
+  - type: StealCondition
+    verifyMapExistence: false
+    descriptionText: objective-condition-saboteur-description
+
+# Kill objectives - the Provocateur cannot kill directly due to pacifism
+# They must frame targets, spread rumors, or manipulate security into eliminating them
+- type: entity
+  abstract: true
+  parent: [BaseSaboteurObjective, BaseKillObjective]
+  id: BaseSaboteurKillObjective
+  components:
+  - type: Objective
+    icon:
+      sprite: Objects/Misc/bureaucracy.rsi
+      state: folder-white
+
+# Ensure a random person dies - you can't kill them yourself!
+- type: entity
+  parent: BaseSaboteurKillObjective
+  id: SaboteurKillRandomPersonObjective
+  description: This person needs to die, but your hands must stay clean. Frame them, turn the crew against them, or arrange an "accident" - just don't get caught.
+  components:
+  - type: Objective
+    difficulty: 2.5
+    unique: false
+  - type: TargetObjective
+    title: objective-condition-saboteur-eliminate-title
+  - type: PickRandomPerson
+  - type: KillPersonCondition
+    requireDead: true
+
+# Ensure a head of staff dies - harder target, cleaner required
+- type: entity
+  parent: BaseSaboteurKillObjective
+  id: SaboteurKillRandomHeadObjective
+  description: This head of staff is a threat to our interests. Manipulate the crew or security into eliminating them. Your pacifism implant prevents direct action.
+  components:
+  - type: Objective
+    difficulty: 3.5
+    unique: true
+  - type: TargetObjective
+    title: objective-condition-saboteur-eliminate-head-title
+  - type: PickRandomHead
+  - type: KillPersonCondition
+    requireDead: true
+
+# Escape objective for Provocateur
+- type: entity
+  parent: [BaseSaboteurObjective, BaseLivingObjective]
+  id: EscapeSaboteurShuttleObjective
+  name: Escape to centcomm alive and unrestrained.
+  description: Your corporate sponsors need you alive to debrief. Get out while the station is in chaos.
+  components:
+  - type: Objective
+    difficulty: 1.3
+    icon:
+      sprite: Structures/Furniture/chairs.rsi
+      state: shuttle
+  - type: EscapeShuttleCondition
+
+# Social manipulation objectives - steal items that help frame others or cause distrust
+# These are fundamentally different from ninja objectives (doorjacking, research stealing, bombs)
+
+## Steal identification items to impersonate crew
+- type: entity
+  parent: BaseSaboteurStealObjective
+  id: SaboteurIdCollectionObjective
+  components:
+  - type: StealCondition
+    stealGroup: IDCard
+    minCollectionSize: 3
+    maxCollectionSize: 5
+    verifyMapExistence: false
+  - type: Objective
+    difficulty: 1.0
+
+## Steal stamps to forge documents
+- type: entity
+  parent: BaseSaboteurStealObjective
+  id: SaboteurStampCollectionObjective
+  components:
+  - type: StealCondition
+    stealGroup: Stamp
+    minCollectionSize: 3
+    maxCollectionSize: 5
+  - type: Objective
+    difficulty: 0.8
+
+## Steal department keys for impersonation
+- type: entity
+  parent: BaseSaboteurStealObjective
+  id: SaboteurHeadsetStealObjective
+  components:
+  - type: NotJobRequirement
+    job: Captain
+  - type: StealCondition
+    stealGroup: ClothingHeadsetAltMedical
+  - type: Objective
+    difficulty: 1.2
+
+## Steal evidence planting materials (forensic tools)
+- type: entity
+  parent: BaseSaboteurStealObjective
+  id: SaboteurForensicScannerStealObjective
+  components:
+  - type: NotJobRequirement
+    job: Detective
+  - type: StealCondition
+    stealGroup: ForensicScanner
+  - type: Objective
+    difficulty: 1.0
+
+## Steal the warden's hat - a symbol of authority
+- type: entity
+  parent: BaseSaboteurStealObjective
+  id: SaboteurWardenHatStealObjective
+  components:
+  - type: StealCondition
+    stealGroup: ClothingHeadHatWarden
+  - type: Objective
+    difficulty: 1.5
+
+## Steal the Captain's ID - ultimate impersonation
+- type: entity
+  parent: BaseSaboteurStealObjective
+  id: SaboteurCaptainIdStealObjective
+  components:
+  - type: NotJobRequirement
+    job: Captain
+  - type: StealCondition
+    stealGroup: CaptainIDCard
+  - type: Objective
+    difficulty: 2.5
+
+## Steal medals to discredit heroes
+- type: entity
+  parent: BaseSaboteurStealObjective
+  id: SaboteurMedalStealObjective
+  components:
+  - type: StealCondition
+    stealGroup: ClothingNeckGoldmedal
+  - type: Objective
+    difficulty: 1.2
+
+## Steal criminal records cartridge to manipulate records
+- type: entity
+  parent: BaseSaboteurStealObjective
+  id: SaboteurWantedListStealObjective
+  components:
+  - type: NotJobRequirement
+    job: SecurityOfficer
+  - type: StealCondition
+    stealGroup: WantedListCartridge
+  - type: Objective
+    difficulty: 1.0
+
+## Steal head cloaks to impersonate leadership
+- type: entity
+  parent: BaseSaboteurStealObjective
+  id: SaboteurHeadCloakStealObjective
+  components:
+  - type: StealCondition
+    stealGroup: HeadCloak
+    minCollectionSize: 2
+    maxCollectionSize: 3
+  - type: Objective
+    difficulty: 1.5
+

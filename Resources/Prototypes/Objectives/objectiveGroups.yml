@@ -116,4 +116,50 @@
   id: ThiefObjectiveGroupEscape
   weights:
     EscapeThiefShuttleObjective: 1
+
+# Provocateur/Saboteur groups - focused on social manipulation, not tech sabotage
+# These objectives are about stealing items for impersonation and framing,
+# not infrastructure destruction like the ninja's doorjacking and spider bombs
+# CRITICAL: The Provocateur is PACIFIED - kill objectives require manipulating
+# the crew into doing the killing for them!
+
+# Kill objectives - Provocateur cannot kill directly, must manipulate others
+- type: weightedRandom
+  id: SaboteurObjectiveGroupKill
+  weights:
+    SaboteurKillRandomPersonObjective: 1
+    SaboteurKillRandomHeadObjective: 0.3
+
+- type: weightedRandom
+  id: SaboteurObjectiveGroups
+  weights:
+    SaboteurObjectiveGroupIdentity: 1.5
+    SaboteurObjectiveGroupAuthority: 1
+    SaboteurObjectiveGroupEvidence: 1
+    SaboteurObjectiveGroupCommand: 0.3
+
+- type: weightedRandom
+  id: SaboteurObjectiveGroupIdentity
+  weights:
+    SaboteurIdCollectionObjective: 1
+    SaboteurHeadsetStealObjective: 1
+
+- type: weightedRandom
+  id: SaboteurObjectiveGroupAuthority
+  weights:
+    SaboteurStampCollectionObjective: 1
+    SaboteurWardenHatStealObjective: 1
+    SaboteurHeadCloakStealObjective: 1
+    SaboteurMedalStealObjective: 1
+
+- type: weightedRandom
+  id: SaboteurObjectiveGroupEvidence
+  weights:
+    SaboteurForensicScannerStealObjective: 1
+    SaboteurWantedListStealObjective: 1
+
+- type: weightedRandom
+  id: SaboteurObjectiveGroupCommand
+  weights:
+    SaboteurCaptainIdStealObjective: 1
 #Changeling, crew, wizard, when you code it...

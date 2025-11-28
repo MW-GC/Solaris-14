@@ -35,6 +35,42 @@
       briefing:
         sound: "/Audio/Misc/thief_greeting.ogg"
 
+# Provocateur - A pacifist agent who manipulates crew into killing their targets
+# Unlike traitors (direct violence) or ninja (tech sabotage), the Provocateur
+# must use social manipulation to get the crew to eliminate targets for them.
+- type: entity
+  parent: BaseGameRule
+  id: Saboteur
+  components:
+  - type: SaboteurRule
+  - type: AntagObjectives
+    objectives:
+    - EscapeSaboteurShuttleObjective
+  - type: AntagRandomObjectives
+    sets:
+    - groups: SaboteurObjectiveGroupKill
+      maxPicks: 1
+    - groups: SaboteurObjectiveGroups
+      maxPicks: 2
+    maxDifficulty: 4.0
+  - type: AntagSelection
+    agentName: saboteur-round-end-agent-name
+    selectionTime: IntraPlayerSpawn
+    definitions:
+    - prefRoles: [ Saboteur ]
+      max: 2
+      playerRatio: 25
+      lateJoinAdditional: true
+      multiAntagSetting: NotExclusive
+      startingGear: SaboteurGear
+      components:
+      - type: Pacified
+      mindRoles:
+      - MindRoleSaboteur
+      briefing:
+        text: saboteur-role-greeting-human
+        color: Orange
+
 # Needs testing
 - type: entity
   parent: BaseWizardRule

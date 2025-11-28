@@ -1,0 +1,23 @@
+- type: antag
+  id: Saboteur
+  name: roles-antag-saboteur-name
+  antagonist: true
+  setPreference: true
+  objective: roles-antag-saboteur-objective
+  requirements:
+  - !type:OverallPlaytimeRequirement
+    time: 7200 # 2h
+
+# Provocateur gear - focused on social manipulation, not tech sabotage
+# Unlike the ninja who has advanced tech (stealth suit, gloves, katana),
+# the Provocateur uses mundane but cunning tools for social manipulation
+- type: startingGear
+  id: SaboteurGear
+  storage:
+    back:
+    - AgentIDCard
+    - ClothingMaskGasVoiceChameleon
+    - ChameleonProjector
+    - Paper
+    - Pen
+    - HandLabeler

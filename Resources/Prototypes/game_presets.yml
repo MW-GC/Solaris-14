@@ -160,6 +160,23 @@
   - BasicRoundstartVariation
 
 - type: gamePreset
+  id: Saboteur
+  alias:
+    - saboteur
+    - sabo
+  name: saboteur-title
+  description: saboteur-description
+  showInVote: false
+  rules:
+  - DummyNonAntagChance
+  - Saboteur
+  - SubGamemodesRule
+  - BasicStationEventScheduler
+  - MeteorSwarmScheduler
+  - SpaceTrafficControlEventScheduler
+  - BasicRoundstartVariation
+
+- type: gamePreset
   id: Deathmatch
   alias:
     - deathmatch
