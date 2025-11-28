@@ -1,9 +1,9 @@
 - type: antag
-  id: Saboteur
-  name: roles-antag-saboteur-name
+  id: Provocateur
+  name: roles-antag-provocateur-name
   antagonist: true
   setPreference: true
-  objective: roles-antag-saboteur-objective
+  objective: roles-antag-provocateur-objective
   requirements:
   - !type:OverallPlaytimeRequirement
     time: 7200 # 2h
@@ -12,7 +12,7 @@
 # Unlike the ninja who has advanced tech (stealth suit, gloves, katana),
 # the Provocateur uses mundane but cunning tools for social manipulation
 - type: startingGear
-  id: SaboteurGear
+  id: ProvocateurGear
   storage:
     back:
     - AgentIDCard

@@ -160,16 +160,16 @@
   - BasicRoundstartVariation
 
 - type: gamePreset
-  id: Saboteur
+  id: Provocateur
   alias:
-    - saboteur
-    - sabo
-  name: saboteur-title
-  description: saboteur-description
+    - provocateur
+    - provo
+  name: provocateur-title
+  description: provocateur-description
   showInVote: false
   rules:
   - DummyNonAntagChance
-  - Saboteur
+  - Provocateur
   - SubGamemodesRule
   - BasicStationEventScheduler
   - MeteorSwarmScheduler

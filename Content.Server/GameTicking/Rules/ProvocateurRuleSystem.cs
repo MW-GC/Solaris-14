@@ -6,11 +6,11 @@ using Content.Shared.Humanoid;
 namespace Content.Server.GameTicking.Rules;
 
 /// <summary>
-/// The Provocateur is an agent focused on social manipulation and creating distrust among the crew.
+/// The Provocateur is a pacifist agent focused on social manipulation and creating distrust among the crew.
 /// Unlike the ninja who uses advanced tech for sabotage, the Provocateur uses deception and framing
-/// to turn the crew against each other.
+/// to turn the crew against each other. They have kill objectives but cannot kill directly.
 /// </summary>
-public sealed class SaboteurRuleSystem : GameRuleSystem<SaboteurRuleComponent>
+public sealed class ProvocateurRuleSystem : GameRuleSystem<ProvocateurRuleComponent>
 {
     [Dependency] private readonly AntagSelectionSystem _antag = default!;
 
@@ -18,20 +18,20 @@ public sealed class SaboteurRuleSystem : GameRuleSystem<SaboteurRuleComponent>
     {
         base.Initialize();
 
-        SubscribeLocalEvent<SaboteurRuleComponent, AfterAntagEntitySelectedEvent>(AfterAntagSelected);
+        SubscribeLocalEvent<ProvocateurRuleComponent, AfterAntagEntitySelectedEvent>(AfterAntagSelected);
 
-        SubscribeLocalEvent<SaboteurRoleComponent, GetBriefingEvent>(OnGetBriefing);
+        SubscribeLocalEvent<ProvocateurRoleComponent, GetBriefingEvent>(OnGetBriefing);
     }
 
     // Greeting upon provocateur activation
-    private void AfterAntagSelected(Entity<SaboteurRuleComponent> mindId, ref AfterAntagEntitySelectedEvent args)
+    private void AfterAntagSelected(Entity<ProvocateurRuleComponent> mindId, ref AfterAntagEntitySelectedEvent args)
     {
         var ent = args.EntityUid;
         _antag.SendBriefing(ent, MakeBriefing(ent), null, null);
     }
 
     // Character screen briefing
-    private void OnGetBriefing(Entity<SaboteurRoleComponent> role, ref GetBriefingEvent args)
+    private void OnGetBriefing(Entity<ProvocateurRoleComponent> role, ref GetBriefingEvent args)
     {
         var ent = args.Mind.Comp.OwnedEntity;
 
@@ -44,11 +44,11 @@ public sealed class SaboteurRuleSystem : GameRuleSystem<SaboteurRuleComponent>
     {
         var isHuman = HasComp<HumanoidAppearanceComponent>(ent);
         var briefing = isHuman
-            ? Loc.GetString("saboteur-role-greeting-human")
-            : Loc.GetString("saboteur-role-greeting-animal");
+            ? Loc.GetString("provocateur-role-greeting-human")
+            : Loc.GetString("provocateur-role-greeting-animal");
 
         if (isHuman)
-            briefing += "\n \n" + Loc.GetString("saboteur-role-greeting-equipment") + "\n";
+            briefing += "\n \n" + Loc.GetString("provocateur-role-greeting-equipment") + "\n";
 
         return briefing;
     }

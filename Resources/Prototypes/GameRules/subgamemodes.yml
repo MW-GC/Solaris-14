@@ -40,35 +40,35 @@
 # must use social manipulation to get the crew to eliminate targets for them.
 - type: entity
   parent: BaseGameRule
-  id: Saboteur
+  id: Provocateur
   components:
-  - type: SaboteurRule
+  - type: ProvocateurRule
   - type: AntagObjectives
     objectives:
-    - EscapeSaboteurShuttleObjective
+    - EscapeProvocateurShuttleObjective
   - type: AntagRandomObjectives
     sets:
-    - groups: SaboteurObjectiveGroupKill
+    - groups: ProvocateurObjectiveGroupKill
       maxPicks: 1
-    - groups: SaboteurObjectiveGroups
+    - groups: ProvocateurObjectiveGroups
       maxPicks: 2
     maxDifficulty: 4.0
   - type: AntagSelection
-    agentName: saboteur-round-end-agent-name
+    agentName: provocateur-round-end-agent-name
     selectionTime: IntraPlayerSpawn
     definitions:
-    - prefRoles: [ Saboteur ]
+    - prefRoles: [ Provocateur ]
       max: 2
       playerRatio: 25
       lateJoinAdditional: true
       multiAntagSetting: NotExclusive
-      startingGear: SaboteurGear
+      startingGear: ProvocateurGear
       components:
       - type: Pacified
       mindRoles:
-      - MindRoleSaboteur
+      - MindRoleProvocateur
       briefing:
-        text: saboteur-role-greeting-human
+        text: provocateur-role-greeting-human
         color: Orange
 
 # Needs testing

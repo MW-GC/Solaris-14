@@ -242,16 +242,16 @@
     subtype: role-subtype-thief
   - type: ThiefRole
 
-# Saboteur
+# Provocateur
 - type: entity
   parent: BaseMindRoleAntag
-  id: MindRoleSaboteur
-  name: Saboteur Role
+  id: MindRoleProvocateur
+  name: Provocateur Role
   components:
   - type: MindRole
-    antagPrototype: Saboteur
-    subtype: role-subtype-saboteur
-  - type: SaboteurRole
+    antagPrototype: Provocateur
+    subtype: role-subtype-provocateur
+  - type: ProvocateurRole
 
 # Traitors
 - type: entity
