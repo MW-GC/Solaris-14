@@ -6,7 +6,10 @@
   objective: roles-antag-provocateur-objective
   requirements:
   - !type:OverallPlaytimeRequirement
-    time: 7200 # 2h
+    # 2h requirement - higher than traitor because this role requires understanding
+    # of station dynamics, social systems, and creative problem-solving to succeed
+    # as a pacifist who must manipulate others into killing their targets
+    time: 7200
 
 # Provocateur gear - focused on social manipulation, not tech sabotage
 # Unlike the ninja who has advanced tech (stealth suit, gloves, katana),

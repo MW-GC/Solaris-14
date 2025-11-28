@@ -49,17 +49,17 @@
   - type: AntagRandomObjectives
     sets:
     - groups: ProvocateurObjectiveGroupKill
-      maxPicks: 1
+      maxPicks: 1  # One kill target - more would be too hard for a pacifist
     - groups: ProvocateurObjectiveGroups
-      maxPicks: 2
+      maxPicks: 2  # Two social manipulation objectives
     maxDifficulty: 4.0
   - type: AntagSelection
     agentName: provocateur-round-end-agent-name
     selectionTime: IntraPlayerSpawn
     definitions:
     - prefRoles: [ Provocateur ]
-      max: 2
-      playerRatio: 25
+      max: 2  # Max 2 provocateurs - too many would make manipulation obvious
+      playerRatio: 25  # ~1 per 25 players, less common than traitors due to unique playstyle
       lateJoinAdditional: true
       multiAntagSetting: NotExclusive
       startingGear: ProvocateurGear
