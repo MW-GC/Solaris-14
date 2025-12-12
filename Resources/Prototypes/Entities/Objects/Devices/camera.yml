@@ -1,0 +1,19 @@
+- type: entity
+  parent: BaseItem
+  id: HandheldCamera
+  name: camera
+  description: A handheld camera that can take photos. The photos can be placed on walls.
+  components:
+  - type: Sprite
+    sprite: Objects/Devices/camera.rsi
+    state: icon
+  - type: Item
+    sprite: Objects/Devices/camera.rsi
+    size: Small
+  - type: HandheldCamera
+    photoPrototype: Photo
+    sound:
+      path: /Audio/Machines/shutter.ogg
+    useDelay: 2
+  - type: UseDelay
+    delay: 2
