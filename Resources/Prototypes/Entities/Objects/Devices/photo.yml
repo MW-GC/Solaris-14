@@ -1,0 +1,42 @@
+- type: entity
+  parent: BaseItem
+  id: Photo
+  name: photo
+  description: A photo taken with a camera. It can be placed on a wall.
+  components:
+  - type: Sprite
+    sprite: Objects/Devices/photo.rsi
+    state: icon
+  - type: Item
+    sprite: Objects/Devices/photo.rsi
+    size: Tiny
+  - type: SpawnItemsOnUse
+    items:
+      - id: PhotoFrame
+    uses: 1
+    sound:
+      path: /Audio/Effects/poster_being_set.ogg
+
+- type: entity
+  parent: BaseSign
+  id: PhotoFrame
+  name: framed photo
+  description: A photo in a frame, mounted on the wall.
+  components:
+  - type: Sprite
+    sprite: Structures/Wallmounts/photo_frames.rsi
+    state: frame
+  - type: Damageable
+    damageContainer: StructuralInorganic
+    damageModifierSet: Card
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 10
+      behaviors:
+      - !type:PlaySoundBehavior
+        sound:
+          path: /Audio/Effects/glass_break1.ogg
+      - !type:DoActsBehavior
+        acts: ["Destruction"]
